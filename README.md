@@ -1,6 +1,6 @@
 # Bevy Widgets
 
-Until BSN is available, creating UI Nodes with children in Bevy is quite verbose. For example, the 0.15 Bevy button-with-text example spans about [36 lines of code](https://github.com/bevyengine/bevy/blob/c6a66a7e96a0a24faab0cade1801910c40aa7ee7/examples/ui/button.rs#L57-L92).
+Until BSN is available, creating UI Nodes with children in Bevy is quite verbose. For example, the 0.15 Bevy button-with-text example spans about [36 lines of code](https://github.com/bevyengine/bevy/blob/c6a66a7e96a0a24faab0cade1801910c40aa7ee7/examples/ui/button.rs#L57-L92) just to spawn the button. 
 
 This small experiment uses `required components` and `WithChild` from `i-can't-believe-its-not-bsn` to cut down the code needed to create UI Nodes with children. It’s not groundbreaking, but it may be a helpful reference for developers aiming to build a proper widget set and a more ergonomic UI experience with Bevy UI. It provides an example showing the use of `required components` and `WithChild` as they were intended to be used, and defines 3 widgets (marker components) that have slightly different default values for their required components than the standard bevy widgets. 
 
