@@ -74,3 +74,12 @@ fn setup(mut cmds: Commands) {
 
 This example shows how to use the `MiColumn` widget to stack 3 `MiButton` widgets vertically.
 The `MiWindow` has a child entity with a `MiColumn` component, and the entity with the `MiColumn` component also has a `WithChildren<MiButton>` component that spawns 3 `MiButton` components as children of the enity with the `MiColumn` component.
+
+### Roadmap
+
+- [ ] Add more widgets
+- [ ] `OnClicked`, `OnHovered` etc. components that wrap callbacks
+- [ ] Add more customization options
+- [ ] macro_rules! to define components with required components and `WithChild` and `WithChildren` components
+
+This is an experiment, I may never finish it.
