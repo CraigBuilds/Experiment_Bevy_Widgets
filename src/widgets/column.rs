@@ -17,9 +17,9 @@ use crate::with_child::WithChildren;
     }),
     BorderColor(|| {BorderColor(Color::WHITE)}),
 )]
-pub struct WColumn;
+pub struct MiColumn;
 
-impl WColumn {
+impl MiColumn {
     pub fn with_children<B: Bundle + Clone>(children: Vec<B>) -> (Self, WithChildren<B>) {
         (Self, WithChildren::new(children))
     }

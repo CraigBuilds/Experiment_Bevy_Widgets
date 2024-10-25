@@ -21,9 +21,9 @@ const NORMAL_BUTTON: Color = Color::srgb(0.2, 0.2, 0.2);
     BackgroundColor(|| {BackgroundColor(NORMAL_BUTTON)}),
     WithChild<Text>(|| {WithChild::new(Text::new("Button"))})
 )]
-pub struct WButton;
+pub struct MiButton;
 
-impl WButton {
+impl MiButton {
     pub fn with_text(text: &str) -> (Self, WithChild<Text>) {
         (Self, WithChild::new(Text::new(text)))
     }

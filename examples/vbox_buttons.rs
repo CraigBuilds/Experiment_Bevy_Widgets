@@ -10,10 +10,10 @@ fn main() {
 
 #[derive(Component)]
 #[require(
-    WWindow,
-    WithChild<(WColumn, WithChildren<WButton>)>(||{
+    MiWindow,
+    WithChild<(MiColumn, WithChildren<MiButton>)>(||{
         WithChild::new(
-            WColumn::with_children(vec![WButton; 3])
+            MiColumn::with_children(vec![MiButton; 3])
         )
     })
 )]

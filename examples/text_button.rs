@@ -10,8 +10,8 @@ fn main() {
 
 #[derive(Component)]
 #[require(
-    WWindow,
-    WithChild<(WButton, WithChild<Text>)>(|| {WithChild::new(WButton::with_text("Hello World"))})
+    MiWindow,
+    WithChild<(MiButton, WithChild<Text>)>(|| {WithChild::new(MiButton::with_text("Hello World"))})
 )]
 struct MyUI;
 

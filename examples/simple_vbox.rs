@@ -10,8 +10,8 @@ fn main() {
 
 #[derive(Component)]
 #[require(
-    WWindow,
-    WithChild<WColumn>
+    MiWindow,
+    WithChild<MiColumn>
 )]
 struct MyUI;
 

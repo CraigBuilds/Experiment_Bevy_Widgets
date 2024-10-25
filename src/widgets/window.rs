@@ -15,4 +15,4 @@ use bevy::prelude::*;
         }
     })
 )]
-pub struct WWindow;
+pub struct MiWindow;
