@@ -77,9 +77,10 @@ The `MiWindow` has a child entity with a `MiColumn` component, and the entity wi
 
 ### Roadmap
 
-- [ ] Add more widgets
-- [ ] `OnClicked`, `OnHovered` etc. components that wrap callbacks
+- [ ] Better looking defaults. Maybe the button should be an image? I'd like a widget set that looks good out of the box, even if it has an opinionated style. 
+- [ ] Add more widgets. Use this as reference: https://archive.slint.dev/0.2.0/docs/rust/slint/docs/widgets/
+- [ ] `OnClicked`, `OnHovered` etc. components that wrap callbacks. Add systems that delegate `Changed<Interaction>` events to these callbacks. 
+- [ ] macro_rules! to define components with required components and `WithChild` and `WithChildren` components. At this point, it will be something a tiny bit like bsn.
 - [ ] Add more customization options
-- [ ] macro_rules! to define components with required components and `WithChild` and `WithChildren` components
 
 This is an experiment, I may never finish it.
