@@ -2,9 +2,11 @@
 
 Until we get BSN, creating UI Nodes with children is very verbose. The 0.15 Bevy example to spawn a Button with text is about [36 lines of code](https://github.com/bevyengine/bevy/blob/c6a66a7e96a0a24faab0cade1801910c40aa7ee7/examples/ui/button.rs#L57-L92)
 
-This is an experimental crate that uses required components and `WithChild` from `i-can't-beleive-its-not-bsn` to reduce the amount of code needed to create UI Nodes with children. 
+This is an experimental crate that uses required components and `WithChild` from `i-can't-beleive-its-not-bsn`* to reduce the amount of code needed to create UI Nodes with children. 
 
 Widgets provided in this crate are prefixed with Mi to distinguish them from the standard Bevy widgets.
+
+*`i-can't-beleive-its-not-bsn` is currently aligned with Bevy 0.14. Until it is updated, I'm using my own simplified implementation of `WithChild` in this crate.
 
 # Widgets
 
